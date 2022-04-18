@@ -2,15 +2,18 @@ let people = {
   'Alan Aman': {
     'day': 17, 
     'month': 'Апреля', 
+    'year': 2004,
   }, 
   
   'Zharmukhambet Mangutov': {
     'day': 9, 
     'month': 'Сентября', 
+    'year': 2004,
   }, 
   'Kymbat Mangutova': {
     'day': 25,
     'month': 'Августа',
+    'year': 2000,
   },
   'test': {
     'day': 18,
