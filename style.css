@@ -14,7 +14,35 @@ h4{
   color:#8B8B8B;
   text-align: center;
   font-size: 18px;
+  margin-bottom: 0;
 }
+
+.search{
+  margin: 25px 0;
+  
+}
+.search input{
+  border: none;
+  background: none;
+  border-bottom: 2px solid white;
+  padding: 0 0 5px 10px;
+  color: white;
+  font-size: 20px;
+}
+.search button{
+  margin-left: 10px;
+  padding: 10px;
+  background: #4F6161;
+  border: none;
+  box-shadow: 3px 3px 5px black;
+  border-radius: 3px;
+}
+.search button:hover{
+  
+}
+
+
+
 
 .birthdayToday{
   border: 2px dotted #75C8AD;
