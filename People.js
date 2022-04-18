@@ -15,27 +15,27 @@ let people = {
     'month': 'Августа',
     'year': 2000,
   },
-  'test': {
+  'Test': {
     'day': 18,
     'month': 'Апреля', 
     'year': 2004,
   },
-  'test two': {
+  'Test Two': {
     'day': 18, 
     'month': 'Апреля',
     'year': 1992, 
   },
-  'twenty eight': {
+  'Twenty Eight': {
     'day': 28,
     'month': 'Апреля',
     'year': 1874,
   },
-  'twenty nine': {
+  'Twenty Nine': {
     'day': 29,
     'month': 'Апреля',
     'year': 2002,
   },
-  'theerty': {
+  'Theerty': {
     'day': 30,
     'month': 'Апреля',
     'year': 2006,
