@@ -42,4 +42,14 @@ let people = {
     'month': 'Июля',
     'year': 2004,
   },
+  'Rauan Abibekov': {
+    'day': 26, 
+    'month': 'Января',
+    'year': 2004, 
+  },
+  'Zhanali Shorabek': {
+    'day': 24, 
+    'month': 'Января',
+    'year': 2005, 
+  },
 };
