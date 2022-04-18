@@ -55,4 +55,9 @@ let people = {
     'month': 'Января',
     'year': 2005, 
   },
+  'Aubakirova Tursynai': {
+    'day': 2, 
+    'month': 'Февраль',
+    'year': 1948, 
+  },
 };
