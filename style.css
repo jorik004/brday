@@ -30,12 +30,36 @@ h4{
 }
 .birthdayText p{
   margin: auto;
+  font-weight: 700;
 }
 
 .wiki{
  width: 100%;
  height: 300px;
  margin: 25px 0 0;
+}
+
+
+
+.birthdaySecond{
+  border: 2px dashed #8F58BA;
+  margin: 15px 0 0;
+  padding: 15px;
+}
+.birthdaySecondText{
+  border: 1px dotted #21F7FF;
+  margin: 15px 0 0;
+}
+.birthdaySecondText p{
+  text-align: center;
+}
+.birthdaySecondText p:last-child{
+  font-size: 14px;
+  color: cyan;
+}
+.birthdaySecondText p:first-child{
+  font-weight: 700;
+  font-size: 24px;
 }
 
 

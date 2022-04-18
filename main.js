@@ -1,31 +1,7 @@
 let birthdayToday = document.querySelector('.birthdayToday');
+let birthdaySecond = document.querySelector('.birthdaySecond');
 
 
-let people = {
-  'Alan Aman': {
-    'day': 17, 
-    'month': 'Апреля', 
-  }, 
-  
-  'Zharmukhambet Mangutov': {
-    'day': 9, 
-    'month': 'Сентября', 
-  }, 
-  'Kymbat Mangutova': {
-    'day': 25,
-    'month': 'Августа',
-  },
-  'test': {
-    'day': 18,
-    'month': 'Апреля', 
-    'year': 2004,
-  },
-  'test two': {
-    'day': 18, 
-    'month': 'Апреля',
-    'year': 1992, 
-  },
-};
 
 
 for(key in people){
@@ -41,11 +17,25 @@ for(key in people){
         
     </div>`);
   }
+  
   /*else{
     birthdayToday.insertAdjacentHTML('beforeend', '<p>Сегодня никакого дня рождения не будет.</p>');
     break;
   }*/
 
+}
+
+for(key in people){
+  if(((date.getDate() + 10) >= people[key].day && (date.getDate() + 1) <= people[key].day)
+  && months[date.getMonth()] == people[key].month){
+    birthdaySecond.insertAdjacentHTML('beforeend', `
+    
+    <div class='birthdaySecondText'>
+      <p>${key}</p>
+      <p>${people[key].day} ${people[key].month}</p>
+    </div>
+    `)
+  }
 }
 
 
