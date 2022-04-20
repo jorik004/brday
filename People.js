@@ -60,4 +60,14 @@ let people = {
     'month': 'Февраля',
     'year': 1948, 
   },
+  'Ilyas Mirsalimov': {
+    'day': 23, 
+    'month': 'Августа',
+    'year': 2004, 
+  },
+  'Mukhammed Isakunov': {
+    'day': 7, 
+    'month': 'Марта',
+    'year': 2005, 
+  },
 };
